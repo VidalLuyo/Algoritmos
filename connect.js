@@ -37,7 +37,7 @@ app.use(express.json());
 app.use(cors());
  
 var conexion = mysql.createConnection({
-	host: " 34.233.104.128",
+	host: "34.233.104.128",
 	user: "vidal",
 	password: "vidal",
 	database: "formulario"
